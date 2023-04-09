@@ -1,6 +1,23 @@
 {
+  "author": "Andres-CS",
+  "licence": "MIT",
+  "name": "gh-api-accesor",
+  "description": "Get info from GH Account",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@types/node": "^18.15.11",
+    "dotenv": "^16.0.3",
+    "tsconfig": "^7.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.38.0",
     "typescript": "^5.0.4"
   }
 }
